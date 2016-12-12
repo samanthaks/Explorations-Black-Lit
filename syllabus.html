@@ -1,0 +1,17 @@
+---
+layout: page
+title: Syllabus
+---
+
+{% for post in site.posts reversed %}
+<div class="posts">
+	<ul class="posts-list no-margin">
+	    <h5 class="no-margin">
+	      <p class="no-margin">
+	      	<a class="no-decor post-num-list" href="{{ site.baseurl }}{{ post.url }}">Class {{ post.number }}
+	      	<span class="post-title-list">&raquo; {{ post.title }}</span></a></p>
+	    </h1>
+	</ul>
+
+ </div>
+{% endfor %}

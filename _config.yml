@@ -6,8 +6,6 @@ permalink:        pretty
 
 # Setup
 title:            Explorations of Black Literature
-tagline:          'A Class'
-description:      'Description'
 url:              http://samanthaks.github.io/Explorations-Black-Lit/
 baseurl:          /Explorations-Black-Lit/
 
@@ -15,7 +13,6 @@ author:
   name:           'Samantha Stultz'
   url:            http://samanthaks.github.io
 
-paginate:         10
 
 # Custom vars
 version:          2.1.0

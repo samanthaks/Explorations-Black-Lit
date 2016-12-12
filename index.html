@@ -3,35 +3,14 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+<div class="description">
+  <h1>ENGL BC3129x Explorations of Black Literature: Early African-American Lit. 1760-1890</h1>
+  <p>
+    <i>
+    Poetry, prose, fiction, and nonfiction, with special attention to the slave narrative. Includes Wheatley, Douglass, and Jacobs, but emphasis will be on less familiar writers such as Brown, Harper, Walker, Wilson, and Forten. Works by some 18th-century precursors will also be considered.
+    </i>
+    <br>
+    —Q. Prettyman
+  </p>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>

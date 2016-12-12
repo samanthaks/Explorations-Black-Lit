@@ -1,0 +1,27 @@
+.no-margin {
+	margin: 0;
+}
+
+.post-num-list {
+	color: #aaaaaa;
+	font-weight: 100;
+}
+
+.post-title-list {
+	color: #000000;
+	font-weight: 100;
+}
+
+.no-decor,.no-decor:hover {
+	text-decoration: none;
+}
+
+
+.sidebar-title:hover {
+	text-decoration: none;
+}
+
+.sidebar-ul {
+	list-style-type: none;
+	padding-left: 1em;
+}
