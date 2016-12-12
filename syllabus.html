@@ -5,6 +5,11 @@ title: Syllabus
 
 {% for post in site.posts reversed %}
 <div class="posts">
+	{% if post.number == 2 %}<h3 style="font-weight: 200;"><center>The Eighteenth Century</center></h3>{% endif %}
+	{% if post.number == 9 %}<h3 style="font-weight: 200;"><center>Spiritual Naratives and Sermons</center></h3>{% endif %}
+	{% if post.number == 11 %}<h3 style="font-weight: 200;"><center>The Slave Narrative</center></h3>{% endif %}
+	{% if post.number == 16 %}<h3 style="font-weight: 200;"><center>Pamphleteers and Propagandists</center></h3>{% endif %}
+	{% if post.number == 19 %}<h3 style="font-weight: 200;"><center>19th Century Novelists and Poets</center></h3>{% endif %}
 	<ul class="posts-list no-margin">
 	    <h5 class="no-margin">
 	      <p class="no-margin">
