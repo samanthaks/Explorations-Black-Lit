@@ -9,7 +9,7 @@
 	margin-bottom: 10px;
 }
 
-.class-info-link:hover, .back-to-syllabus:hover {
+.class-info-link:hover, .back-to-syllabus:hover, .post-title-list:hover{
 	font-weight: bold;
 	text-decoration: none;
 }
