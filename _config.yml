@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,8 @@ title:            Explorations of Black Literature
 tagline:          'A Class'
 description:      'Description'
 url:              http://samanthaks.github.io/Explorations-Black-Lit
-baseurl:          /
+baseurl:          /Explorations-Black-Lit
+root:             /Explorations-Black-Lit
 
 author:
   name:           'Samantha Stultz'
