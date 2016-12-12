@@ -1,3 +1,19 @@
+.back-to-syllabus {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.class-info {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.class-info-link:hover, .back-to-syllabus:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .no-margin {
 	margin: 0;
 }
@@ -16,7 +32,6 @@
 	text-decoration: none;
 }
 
-
 .sidebar-title:hover {
 	text-decoration: none;
 }
@@ -24,4 +39,8 @@
 .sidebar-ul {
 	list-style-type: none;
 	padding-left: 1em;
+}
+
+.writer {
+	margin-top: 2em;
 }
