@@ -8,8 +8,8 @@ permalink:        pretty
 title:            Explorations of Black Literature
 tagline:          'A Class'
 description:      'Description'
-url:              http://samanthaks.github.io/Explorations-Black-Lit
-baseurl:          /Explorations-Black-Lit
+url:              http://samanthaks.github.io/Explorations-Black-Lit/
+baseurl:          /Explorations-Black-Lit/
 
 author:
   name:           'Samantha Stultz'
